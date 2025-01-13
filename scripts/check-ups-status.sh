@@ -4,7 +4,7 @@
 LOW_BATTERY_THRESHOLD=20
 
 # Log the time when the script is triggered (optional)
-#echo "$(date): Script triggered due to LOWBATT" >> /home/nutups/shutdown.log
+#echo "$(date): Script triggered due to LOWBATT" >> /home/user/shutdown.log
 
 # Get the current battery charge
 BATTERY_CHARGE=$(upsc UPSNAME battery.charge 2>/dev/null | grep -o '^[0-9]\+$')
