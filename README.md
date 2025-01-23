@@ -1,5 +1,5 @@
 # AutomatedShutdown-UPSMonitoring
-This project / reppository, contains a solution to automate a graceful shutdown of VMware machines and ESXi / vCenter hosts when a UPS battery reaches critical % levels.
+This project / repository, contains a solution to automate a graceful shutdown of VMware machines and ESXi / vCenter hosts when a UPS battery reaches critical % levels.
 
 **IN PROGRESS**
 
@@ -22,7 +22,7 @@ This solution will constantly monitor the UPS device status and battery percenta
 - **Bash Scripting:** Automates UPS status checks and script execution also using crontab.
 - **PowerShell & PowerCLI:** Manages VMware virtual machines and ESXi hosts.
 - **Docker:** (Optional) Dockerize the whole app and run it from containers.
-- **Azure:** Cloud platform hosting the Linux VM or Docker containers.
+- **Azure:** Cloud platform hosting the Linux VM / Docker containers.
 
 ## Repository Structure
 ```
